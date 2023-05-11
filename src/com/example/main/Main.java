@@ -13,7 +13,7 @@ class Main {
 
         //create an array (not an ArrayList) called favoriteColors that holds five strings with your favoriteColors and print the entire array to the screen.
 
-        //Change the third element of facoriteColors to a different color and print that element to the sceen
+        //Change the third element of favoriteColors to a different color and print that element to the screen
 
         //Declare and initialize and array of type int called numbers to hold 1000 elements (this should be used later in the loop exercise)
 

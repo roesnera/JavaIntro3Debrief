@@ -19,7 +19,7 @@ class Main {
         favoriteColors[2] = "Purple again";
         System.out.println(favoriteColors[2]);
         //Declare and initialize and array of type int called numbers to hold 1000 elements (this should be used later in the loop exercise)
-        int[] numbers = new int[1000];
+
         //ArrayList
         //Declare and initialize an ArrayList so that it holds values of type <Double>.
         ArrayList<Double> doubles = new ArrayList<>();
@@ -41,10 +41,14 @@ class Main {
       Some activities for Loops
     */
         // write a for loop that prints out numbers 1-1000 and saves these numbers to the empty array you created earlier
+        int[] numbers = new int[1000];
+
         for (int i = 0; i < 1000; i++) {
             System.out.println(i+1);
             numbers[i] = i+1;
         }
+        System.out.println(Arrays.toString(numbers));
+
         // write a while loop that prints the elements of the array you used in the previous exercise. Take care to avoid infinite looping!
         int index = 0;
         while(index<numbers.length){
